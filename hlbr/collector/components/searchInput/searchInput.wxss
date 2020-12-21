@@ -1,0 +1,22 @@
+.search_input {
+  /* 设置组件的高度 */
+  height: 80rpx;
+  /* 设置背景颜色 */
+  background-color: var(--themeColor);
+  padding: 10rpx;
+}
+navigator {
+  /* 继承父元素的高度 */
+  height: 100%;
+  display: flex;
+  /* 内容水平方向居中 */
+  justify-content: center;
+  /* 内容竖直方向居中 */
+  align-items: center;
+  /* 设置背景颜色 */
+  background-color: #fff;
+  /* 设置边框弧度 */
+  border-radius: 30rpx;
+  /* 设置文字颜色 */
+  color: #666;
+}
